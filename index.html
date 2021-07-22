@@ -9,6 +9,8 @@
     <!-- bootstrap stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -27,13 +29,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Bagpacks</a>
+                            <a class="nav-link" href="#Bagpacks">Bagpacks</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Subscribe</a>
@@ -47,7 +49,7 @@
         </nav>
         <!-- image slider
         ---------------------- -->
-        <section class="container">
+        <section class="container" id="home">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item  active">
@@ -154,7 +156,7 @@
             </div>
         </section>
         <!-- -----------------Shoes all ------------------------>
-        <section class="container">
+        <section class="container" id="shoes">
             <h1> shoes</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -209,7 +211,7 @@
         <!-- Bags collection--------------------------- -->
 
 
-        <section class="container my-5">
+        <section class="container my-5" id="Bagpacks">
             <h1> Bagpacks</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -262,25 +264,24 @@
         </section>
         <!-- -------------------subscribe -->
 
-        <section class="container bg-info   d-flex justify-content-center">
+        <section style="height: 300px;"
+            class="container bg-info d-flex justify-content-center d-flex align-items-center">
             <div>
-                <h1>
-                    Lets Stay in touch
-                    <p>GEt updates all detai</p>
-                    <intput class="text" placeholder="your Email">
-                        <button class="btn btn-warning"> submit
-
-                        </button>
+                <h1>Lets Stay in touch </h1>
+                <p>GEt updates all details will be updated</p>
+                <input type="text" placeholder="Your Email"><br>
+                <button class="btn btn-warning"> Submit</button>
             </div>
 
-            </intput>
-            </h1>
+
+
 
         </section>
     </main>
-    <footer>
+    <footer class="mt-5 text-center">
+        <p> <small>@2020, Panda commerce,All Reserved By Orun Sunny</small></p>
 
-    </footer classmt-5 tect-center>
+    </footer>
 
     <!-- bootstra00000p script-->
 
